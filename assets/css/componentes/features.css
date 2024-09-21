@@ -1,0 +1,59 @@
+.features {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.features-wrapper {
+    background-color: #131325;
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 15px;
+}
+
+.features-text {
+    text-align: center;
+}
+
+.features__descripition {
+    max-width: 50ch;
+    margin: auto;
+}
+
+.feature__card {
+    background-color: #25283d;
+    padding: 6rem 2rem 2rem 2rem;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.feature__cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    margin-top: 7rem;
+}
+
+.feature__card-img {
+    width: 6rem;
+    position: absolute;
+    top: -3rem;
+    left: 2rem;
+}
+
+.bottle{
+    width: 150px;
+    height: 150px;
+    left: 1rem;
+}
+
+.feature__card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.feature__card-descripition {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}

@@ -1,0 +1,84 @@
+.info2 {
+    padding-top: 8rem;
+    max-width: 1366px;
+    margin: auto;
+    padding-inline: 1.25rem;
+}
+
+.info2-wrapper {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.info2__flex1 {
+    flex: 1;
+}
+
+.info2__img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.info2--img {
+    order: 1;
+}
+
+.golen {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.island {
+    width: 350px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.info2--btn {
+    display: flex;
+    color: #2eb1a3;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    position: relative;
+}    
+
+.info2__btn-icon {
+    width: 1.2rem;
+}
+
+.info2--btn::after {
+    content: "";
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    background-color: #2eb1a3;
+    width: 95%;
+    height: 2px;
+}
+ 
+@media (width < 1024px) {
+
+    .info2-wrapper {
+        flex-direction: column;
+        align-items: center;
+}
+
+    .info2--img {
+        order: 0;
+    }
+
+    .info2__descripition {
+        margin: auto;
+    }
+}
